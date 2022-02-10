@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mysticbase:block/mysticalium_block"
+    "all": "mysticbase:block/mysticalium_ore"
   }
 }

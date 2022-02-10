@@ -20,6 +20,12 @@ public class ModBlocks {
     public static final Block MYSTICALIUM_BLOCK = registerBlock("mysticalium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
 
+    public static final Block MYSTICALIUM_ORE = registerBlock("mysticalium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
+
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
         return  Registry.register(Registry.BLOCK, new Identifier(MysticBase.MOD_ID, name), block);
