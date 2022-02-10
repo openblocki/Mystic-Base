@@ -1,7 +1,7 @@
 package com.openblocki.mysticbase;
 
-import com.openblocki.mysticbase.mixin.ModBlocks;
-import com.openblocki.mysticbase.mixin.ModItems;
+import com.openblocki.mysticbase.block.ModBlocks;
+import com.openblocki.mysticbase.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,8 +12,8 @@ public class MysticBase implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
-        ModBlocks.registerBLocks();
-        LOGGER.info("Fuck of Mate");
+        ModBlocks.registerModBlocks();
+        LOGGER.info("Logger on MysticBase");
     }
 
 }

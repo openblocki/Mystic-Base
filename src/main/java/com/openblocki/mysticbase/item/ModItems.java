@@ -1,4 +1,4 @@
-package com.openblocki.mysticbase.mixin;
+package com.openblocki.mysticbase.item;
 
 import com.openblocki.mysticbase.MysticBase;
 import net.minecraft.item.Item;
@@ -10,9 +10,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item RUBY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-
+    public static final Item MYST = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MysticBase.MOD_ID, "ruby"), RUBY);
+        Registry.register(Registry.ITEM, new Identifier(MysticBase.MOD_ID, "mysticalium"), MYST);
     }
 
 }

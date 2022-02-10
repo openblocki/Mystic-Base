@@ -1,3 +1,7 @@
 {
-  "item.mysticbase.ruby": "Ruby"
+  "item.mysticbase.ruby": "Ruby",
+  "item.mysticbase.mysticalium": "Mysticalium",
+
+
+  "block.mysticbase.ruby_block": "Ruby Block"
 }

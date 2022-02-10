@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		MysticBase.LOGGER.info("This Think is donw Because i said So ExampleMixin");
+		MysticBase.LOGGER.info("Logger on Example Mixin");
 	}
 }
