@@ -6,6 +6,8 @@
   "block.mysticbase.ruby_block": "Ruby Block",
   "block.mysticbase.ruby_ore": "Ruby Ore",
   "block.mysticbase.mysticalium_block": "Mysticalium Block",
-  "block.mysticbase.mysticalium_ore": "Mysticalium Ore"
+  "block.mysticbase.mysticalium_ore": "Mysticalium Ore",
+
+  "itemGroup.mysticbase.mysticbase": "Mystic Base Tab"
 
 }

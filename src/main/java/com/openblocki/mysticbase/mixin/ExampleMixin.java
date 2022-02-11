@@ -12,5 +12,6 @@ public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
 		MysticBase.LOGGER.info("Logger on Example Mixin");
+
 	}
 }
