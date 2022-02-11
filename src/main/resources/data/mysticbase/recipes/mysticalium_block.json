@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key": {
+    "#": {
+      "item": "mysticbase:mysticalium"
+    }
+  },
+  "result": {
+    "item": "mysticbase:mysticalium_block"
+  }
+}

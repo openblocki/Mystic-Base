@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mysticbase:mysticalium_block"
+    }
+  ],
+  "result": {
+    "item": "mysticbase:mysticalium",
+    "count": 9
+  }
+}
