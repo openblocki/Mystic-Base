@@ -1,0 +1,6 @@
+{
+  "parent": "mysticbase:block/basic_crusher",
+  "textures": {
+    "texture": "mysticbase:block/basic_crusher"
+  }
+}

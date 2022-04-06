@@ -1,0 +1,17 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "block/basic_crusher"
+      }
+    },
+    {
+      "when": {
+        "closed": true
+      },
+      "apply": {
+        "model": "mysticbase:block/ruby_block"
+      }
+    }
+  ]
+}

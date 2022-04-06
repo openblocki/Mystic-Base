@@ -1,4 +1,4 @@
-{
+  {
   "parent": "block/cube_all",
   "textures": {
     "all": "mysticbase:block/mysticalium_block"
