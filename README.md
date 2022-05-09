@@ -2,5 +2,4 @@
 ## Stuff
  Open Source, yes this is open source 
 ## License
-
-Licence 
+CC0-1.0 license
